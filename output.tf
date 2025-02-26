@@ -32,3 +32,23 @@ output "private_security_group_id" {
   description = "The ID of the private security group"
   value       = aws_security_group.private_sg.id
 }
+
+output "public_instance_id" {
+  description = "The ID of the public EC2 instance"
+  value       = aws_instance.public_instance.id
+}
+
+output "private_instance_id" {
+  description = "The ID of the private EC2 instance"
+  value       = aws_instance.private_instance.id
+}
+
+output "public_instance_ip" {
+  description = "The public IP of the EC2 instance"
+  value       = aws_instance.public_instance.public_ip
+}
+
+output "private_instance_private_ip" {
+  description = "The private IP of the private EC2 instance"
+  value       = aws_instance.private_instance.private_ip
+}
