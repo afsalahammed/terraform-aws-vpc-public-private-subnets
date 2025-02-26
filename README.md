@@ -13,9 +13,6 @@ This project provisions an **AWS VPC with both public and private subnets** usin
   - A **Public Instance** (acts as a Bastion Host if needed).
   - A **Private Instance** (accessible only via the Public Instance).
 
-## **Architecture Diagram**
-📌 *(Consider adding an AWS architecture diagram for better visualization.)*
-
 ## **Prerequisites**
 Before running this Terraform project, ensure you have:
 - An **AWS account**.
